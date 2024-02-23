@@ -1,3 +1,7 @@
+/**
+ * @version 1.0, 23/02/2024
+ * @autor pedropineiro
+ */
 public class Main {
     public static void main(String[] args) {
         IComun camion = Factory.getTransporte("Camion");

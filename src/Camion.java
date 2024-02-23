@@ -1,8 +1,19 @@
 class Camion implements IComun {
+    /**
+     * Método que muestra el coste total del producto.
+     *
+     * @param cp Código postal.
+     *           return Float
+     */
     @Override
     public float costeTotal(int cp) {
         return cp * 0.05f;
     }
+    /**
+     * Método que muestra la distancia real basada en el código postal
+     * @param cp Código postal
+     * @return Integer
+     */
 
     @Override
     public int tipoEmbalaje(float x, float y, float z, float peso) {
